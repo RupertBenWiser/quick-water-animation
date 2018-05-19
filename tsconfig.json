@@ -1,0 +1,11 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "lib": [
+            "dom",
+            "es2015"
+        ]
+    }
+}
