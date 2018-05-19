@@ -18,8 +18,8 @@ const addToWater = () => {
 }
 
 const render = () => {
-    canvas.width = document.querySelector('body').offsetWidth - 5;
-    canvas.height = document.querySelector('body').offsetHeight - 5;
+    canvas.width = document.querySelector('body').offsetWidth;
+    canvas.height = document.querySelector('body').offsetHeight;
 
     context2D.clearRect(0, 0, canvas.width, canvas.height);
     
